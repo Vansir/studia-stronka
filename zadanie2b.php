@@ -1,0 +1,12 @@
+<?php
+$f=fopen("dokumenty/a.xml","w");
+fwrite($f,"<aa>\n");
+fwrite($f,"\t<nazwisko>".$_POST[nazwisko]."</nazwisko>\n");
+fwrite($f,"\t<potwierdzenie>".$_POST[potwierdzenie]."</potwierdzenie>\n");
+fwrite($f,"\t<dzien>".$_POST[dzien]."</dzien>\n");
+fwrite($f,"\t<plik_nazwa>".$_FILES[f_plik][name]."</plik_nazwa>\n");
+fwrite($f,"\t<plik_rozmiar>".$_FILES[f_plik][name]."</plik_rozmiar>\n");
+fwrite($f,"\t<plik_typ>".$_FILES[f_plik][name]."</plik_typ>\n");
+fwrite($f,"</aa>");
+fclose($f);
+?>

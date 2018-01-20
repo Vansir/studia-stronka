@@ -1,0 +1,37 @@
+<eg>
+<p1>
+	<id_pracownika>1</id_pracownika>
+	<nazwisko>Halemba</nazwisko>
+	<imie>Iwona</imie>
+	<NIP></NIP>
+	<PESEL></PESEL>
+</p1>
+<p2>
+	<id_pracownika>2</id_pracownika>
+	<nazwisko>Kulczyk</nazwisko>
+	<imie>Jacek</imie>
+	<NIP></NIP>
+	<PESEL></PESEL>
+</p2>
+<p3>
+	<id_pracownika>3</id_pracownika>
+	<nazwisko>Jaskowski</nazwisko>
+	<imie>Ireneusz</imie>
+	<NIP></NIP>
+	<PESEL></PESEL>
+</p3>
+<p4>
+	<id_pracownika>4</id_pracownika>
+	<nazwisko>Kowalczyk</nazwisko>
+	<imie>Monika</imie>
+	<NIP></NIP>
+	<PESEL></PESEL>
+</p4>
+<p5>
+	<id_pracownika>5</id_pracownika>
+	<nazwisko>Malinowski</nazwisko>
+	<imie>Jacek</imie>
+	<NIP></NIP>
+	<PESEL></PESEL>
+</p5>
+</eg>

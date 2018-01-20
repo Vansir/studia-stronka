@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<form method="post" action="zadanie2b.php" enctype="multipart/form-data">
+Wpisz nazwisko: <input type="text" name="nazwisko" size="20" maxlenght="30"/>
+<br>
+To jest poprawne nazwisko <input type="checkbox" name="potwierdzenie"/>
+<br>
+Wybierz dzień tygodnia<br>
+<select name="dzien" size="7">
+<option value="poniedziałek"/>poniedziałek
+<option value="wtorek"/>wtorek
+<option value="środa"/>środa
+<option value="czwartek"/>czwartek
+<option value="piątek"/>piątek
+<option value="sobota"/>sobota
+<option value="niedziela"/>niedziela
+</select>
+<br>
+Wybierz plik do przesłania <input type="file" name="f_plik"/><br>
+<input type="submit" value="Wyślij dane"/>
+</form>
